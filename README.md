@@ -6,7 +6,10 @@ A simple command-line interface to Google's Bard Artificial Intelligence Chatbot
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+1. Clone the repository
+2. In the project directory, run `dotnet build --configuration Release`
+3. Copy the `bin/Release/net6.0/GoogleBard` file to a directory in your `PATH` environment variable
+4. It will create a log file of the questions and answers in the current directory of the executable
 
 ## Usage
 
